@@ -1,6 +1,7 @@
 import tkinter as tk
 from tkinter import messagebox
 
+
 def submit_excuse():
     # getting an explanation from user
     excuse = text_entry.get("1.0", tk.END).strip()
