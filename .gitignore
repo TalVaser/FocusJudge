@@ -2,3 +2,4 @@ venv/
 .idea/
 __pycache__/
 shame_log.json
+.env
