@@ -43,7 +43,7 @@ def create_court_window(blocked_app_name):
     except:
         pass
 
-    root = tk.Tk()
+    root = tk.Toplevel()
     root.title("Productivity Court - Access Denied Order")
     root.geometry("800x800")
 
@@ -65,8 +65,6 @@ def create_court_window(blocked_app_name):
 
     submit_button = tk.Button(root, text="Submit Appeal to The Judge", font=("Cambria Math", 12, "bold"),height=5, width=40, bg="#b30000", fg="white", command=submit_excuse)
     submit_button.pack(pady=20)
-
-    root.mainloop()
 
 if __name__ == "__main__":
     create_court_window("YouTube")

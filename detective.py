@@ -6,10 +6,10 @@ from court_ui import create_court_window
 # Blacklisted sites - will later change to get from user
 BLOCKED_WORDS = ["youtube", "facebook", "instagram", "twitter", "x.com", "whatsapp", "discord", "reddit"]
 
-def watch_windows():
+def watch_windows(stop_event):
     print("🕵️ Detective is active... scanning windows (Ctrl+C to stop)")
 
-    while True:
+    while not stop_event.is_set():
         try:
             # Get the currently active window
             active_window = gw.getActiveWindow()
@@ -26,7 +26,6 @@ def watch_windows():
 
                         print("⏳ Court adjourned. You have 10 seconds to close the distracted tab!")
                         time.sleep(10)
-
                         break
 
         except Exception:

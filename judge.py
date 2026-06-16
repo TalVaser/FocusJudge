@@ -32,11 +32,3 @@ def get_verdict(app_name, excuse):
     except Exception as e:      # Denies on failure to connect
         print(f"Error: {e}")
         return "VERDICT: DENIED. The court system is down, which automatically makes you guilty. Tough luck. GET BACK TO WORK!"
-
-if __name__ == "__main__":
-    test_1 = get_verdict("YouTube", "I need to watch a tutorial on how to center a div in CSS.")
-    print(f"\nTest 1: {test_1}")
-    print( "-" * 40)
-
-    test_2 = get_verdict("Instagram", "I gotta watch the new drama update")
-    print(f"\nTest 2: {test_2}")
