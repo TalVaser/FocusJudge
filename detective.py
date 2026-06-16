@@ -1,8 +1,9 @@
 import pygetwindow as gw
 import time
+from court_ui import create_court_window
 
 # Blacklisted sites - will later change to get from user
-BLOCKED_WORDS = ["youtube", "facebook", "instagram", "twitter", "x.com", "whatsapp", "discord"]
+BLOCKED_WORDS = ["youtube", "facebook", "instagram", "twitter", "x.com", "whatsapp", "discord", "reddit"]
 
 def watch_windows():
     print("🕵️ Detective is active... scanning windows (Ctrl+C to stop)")
@@ -19,10 +20,12 @@ def watch_windows():
                 for word in BLOCKED_WORDS:
                     if word in title:
                         print(f"🚨 Distraction detected 🚨 Blocked word: '{word}'. Window title: '{active_window.title}'")
-                        print("Prepare to state your case to The Judge 🧑‍⚖️... ")
+                        active_window.minimize()
+                        create_court_window(word.capitalize())
 
-                        # Short pause to not flood console
-                        time.sleep(5)
+                        print("⏳ Court adjourned. You have 10 seconds to close the distracted tab!")
+                        time.sleep(10)
+
                         break
 
         except Exception:
