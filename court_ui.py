@@ -1,6 +1,8 @@
 import tkinter as tk
 from tkinter import messagebox
+from judge import get_verdict
 
+current_app = ""
 
 def submit_excuse():
     # getting an explanation from user
@@ -21,12 +23,19 @@ def submit_excuse():
         else:
             return      # returns to excuse window
     else:
-        # Sends excuse for AI to rule. future feature.
-        print(f"Excuse submitted: {excuse}")
+        submit_button.config(text="🧑‍⚖️ The Judge is evaluating your case...", state=tk.DISABLED)
+        root.update()
+        verdict = get_verdict(current_app, excuse)
+
+        if "VERDICT: APPROVED" in verdict:
+            messagebox.showinfo("Case Dismissed. You are free to go.", verdict)
+        else:
+            messagebox.showerror("Guilty! Get back to work!", verdict)
+
         root.destroy()
 
 def create_court_window(blocked_app_name):
-    global root, text_entry
+    global root, text_entry,submit_button, current_app
 
     try:
         from ctypes import windll
