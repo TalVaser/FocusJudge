@@ -3,6 +3,7 @@ from dotenv import load_dotenv
 from google import genai
 from google.genai import types
 
+
 # loading API Key:
 load_dotenv()
 

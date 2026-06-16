@@ -2,6 +2,7 @@ import tkinter as tk
 from tkinter import messagebox
 from judge import get_verdict
 
+
 current_app = ""
 
 def submit_excuse():

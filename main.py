@@ -4,6 +4,7 @@ import time
 import pygetwindow as gw
 from court_ui import create_court_window
 
+
 # Blacklisted sites - will later change to get from user
 BLOCKED_WORDS = ["youtube", "facebook", "instagram", "twitter", "x.com", "whatsapp", "discord", "reddit"]
 
