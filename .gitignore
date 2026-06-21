@@ -3,3 +3,9 @@ venv/
 __pycache__/
 shame_log.json
 .env
+settings.json
+
+build/
+dist/
+*.spec
+__pycache__/
