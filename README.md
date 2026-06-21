@@ -1,4 +1,4 @@
-# Productivity Court 🧑‍⚖️⏳
+# Productivity Court 🧑‍⚖️
 
 * "I'll just check Instagram for a second"
 * "I'll just answer my Discord dms quickly"
