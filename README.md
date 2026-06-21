@@ -15,7 +15,13 @@ NO MORE PROCRASTINATING!
 * **Strict System:** The Judge will not let you ignore it until your request is justified.
 
 ## Screenshots
-
+<table>
+   <tr>
+      <td align="center"><img src="https://github.com/user-attachments/assets/357f29fd-3c32-41e7-a96f-db4a9ec706fb" width="280"/><br/><sub><b>Start/Stop Focus</b></sub></td>
+      <td align="center"><img src="https://github.com/user-attachments/assets/b8b3beff-323a-4a58-a981-4e5639f39204" width="360"/><br/><sub><b>Explain yourself to The Judge</b></sub></td>
+      <td align="center"><img src="https://github.com/user-attachments/assets/5088e3f3-b5e6-48c0-adfe-998d26c6fd49" width="360"/><br/><sub><b>The Verdict!</b></sub></td>
+   </tr>
+</table>
 
 ## How to Use
 1. Go to the **Releases** tab on the right side of this page and download the latest `.exe` file.
