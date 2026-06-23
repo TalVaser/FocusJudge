@@ -10,7 +10,7 @@ NO MORE PROCRASTINATING!
 
 ## Features
 * **Distraction Block:** Blocks predefined distracting websites/apps (like YouTube, Reddit, Instagram).
-* **AI Judge:** When a distraction is detected, a court window appears. You must state your case to The Judge! It will Decide if your excuse is good enough to approve.
+* **AI Judge:** Submit a written justification and requested duration - the Gemini-powered judge independently evaluates both, and grants or denies access for a requested time.
 * **Dynamic Blacklist:** Add or remove apps and websites.
 * **Strict System:** The Judge will not let you ignore it until your request is justified.
 
