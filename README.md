@@ -24,12 +24,13 @@ NO MORE PROCRASTINATING!
 </table>
 
 ## How to Use
-1. Go to the **Releases** tab on the right side of this page and download the latest `.exe` file.
-2. Place the executable in a folder of your choice.
-3. In the same folder, create a new text file and name it `.env`.
-4. Open the `.env` file and add your Google Gemini API key like this:
+1. You'll need a free Google Gemini API key - get one at aistudio.google.com
+2. Go to the **Releases** tab on the right side of this page and download the latest `.exe` file.
+3. Place the executable in a folder of your choice.
+4. In the same folder, create a new text file and name it `.env`.
+5. Open the `.env` file and add your Google Gemini API key like this:
    `GEMINI_API_KEY=your_actual_api_key_here`
-5. Run the `.exe` and get to work!
+6. Run the `.exe` and get to work!
 
 ## For Developers
 1. Clone the repository.
