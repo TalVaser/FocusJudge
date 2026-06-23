@@ -20,6 +20,15 @@ NO MORE PROCRASTINATING!
 
 **FocusJudge** - A strict, AI-powered productivity enforcer that acts as your personal judge when you try to access distracting apps. Built with Python, CustomTkinter, and Google's Gemini AI.
 
+
+## Features
+
+* **Distraction Block:** Blocks predefined distracting websites/apps (like YouTube, Reddit, Instagram).
+* **AI Judge:** Submit a written justification and requested duration - the Gemini-powered judge independently evaluates both, and grants or denies access for a requested time.
+* **Dynamic Blacklist:** Add or remove apps and websites.
+* **Strict System:** The Judge will not let you ignore it until your request is justified.
+
+
 ## Screenshots
 
 <table>
@@ -29,13 +38,6 @@ NO MORE PROCRASTINATING!
       <td align="center"><img src="https://github.com/user-attachments/assets/5088e3f3-b5e6-48c0-adfe-998d26c6fd49" width="360"/><br/><sub><b>The Verdict!</b></sub></td>
    </tr>
 </table>
-
-## Features
-
-* **Distraction Block:** Blocks predefined distracting websites/apps (like YouTube, Reddit, Instagram).
-* **AI Judge:** Submit a written justification and requested duration - the Gemini-powered judge independently evaluates both, and grants or denies access for a requested time.
-* **Dynamic Blacklist:** Add or remove apps and websites.
-* **Strict System:** The Judge will not let you ignore it until your request is justified.
 
 
 ## How to Use
